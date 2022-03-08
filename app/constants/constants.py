@@ -11,4 +11,10 @@ class ListenerEventTypes(Enum):
 
 
 class CorporateType(Enum):
-    corporate_type = ['employee', 'HR']
+    API = 'API'
+    B2B2E = 'B2B2E'
+    insurance = 'insurance'
+
+class UserRoles(Enum):
+    ROLE_ADMIN = 'ROLE_ADMIN'
+
