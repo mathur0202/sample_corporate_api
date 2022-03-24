@@ -17,4 +17,5 @@ class CorporateType(Enum):
 
 class UserRoles(Enum):
     ROLE_ADMIN = 'ROLE_ADMIN'
+    user = "user is defined"
 
