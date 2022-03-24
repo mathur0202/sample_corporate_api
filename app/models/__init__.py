@@ -1,4 +1,7 @@
-__all__ = ["User"]
+__all__ = ["User", "CorporateService"]
+
+
+
 
 from .user import User
 from .corporate import CorporateService
