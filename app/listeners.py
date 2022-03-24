@@ -7,7 +7,7 @@ async def notify_server_started_after_five_seconds(app, loop):
 
 listeners = [
     (
-        notify_server_started_after_five_seconds,
+        
         ListenerEventTypes.AFTER_SERVER_START.value,
     )
 ]
